@@ -26,6 +26,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/river/proprietary/etc/permissions/qti_libpermissions.xml:system/etc/permissions/qti_libpermissions.xml \
     vendor/motorola/river/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/motorola/river/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
+    vendor/motorola/river/proprietary/etc/permissions/privapp-permissions-microg.xml:system/etc/permissions/privapp-permissions-microg.xml \
     vendor/motorola/river/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/motorola/river/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/motorola/river/proprietary/framework/com.quicinc.cne.api-V1.0-java.jar:system/framework/com.quicinc.cne.api-V1.0-java.jar \
@@ -77,4 +78,5 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleCS47L35 \
     HotwordEnrollmentTGoogleCS47L35 \
     HotwordEnrollmentXGoogleCS47L35 \
-    qcrilmsgtunnel
+    qcrilmsgtunnel \
+    GmsCore
